@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<comments>
+	<row Id="1" PostId="35314" Score="18"
+		Text="not sure why this is getting downv
+oted -- it is correct! Double check it in your compiler if you don't believe him
+!"
+		CreationDate="2008-09-06T08:07:10.730" UserId="1" />
+	<row Id="2" PostId="35314" Score="7"
+		Text="Yeah, I didn't believe it until I c
+reated a console app - but good lord!  Why would they give you the rope to hang 
+yourself!  I hated that about VB.NET - the OrElse and AndAlso keywords!"
+		CreationDate="2008-09-06T08:09:52.330" UserId="3" />
+	<row Id="4" PostId="35195"
+		Text="I don't see an accepted answer now, I wonder how that got unaccepted. Incidentally, I would have marked an accepted answer based on the answers available at the time. Also, accepted doesn't mean Best :)"
+		CreationDate="2008-09-06T08:42:16.980" UserId="380" />
+	<row Id="9" PostId="47239"
+		Text="Jonathan: Wow!  Thank you for all of that, you did an amazing amount of work!"
+		CreationDate="2008-09-06T12:26:30.060" UserId="4550" />
+	<row Id="10" PostId="45651" Score="5"
+		Text="It will help if you give some details of which database you are using as techniques vary."
+		CreationDate="2008-09-06T13:38:23.647" UserId="242" />
+</comments>

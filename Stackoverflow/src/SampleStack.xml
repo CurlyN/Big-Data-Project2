@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<posts>
+	<row Id="4" PostTypeId="1" AcceptedAnswerId="7"
+		CreationDate="2008-07-31T21:42
+:52.667" Score="251" ViewCount="15207"
+		Body="&lt;p&gt;I want to use a track-bar 
+to change a form's opacity.&lt;/p&gt;&#xA;&#xA;&lt;p&gt;This is my code:&lt;/p&g
+t;&#xA;&#xA;&lt;pre&gt;&lt;code&gt;decimal trans = trackBar1.Value / 5000;&#xA;t
+his.Opacity = trans;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&#xA;&lt;p&gt;When I try 
+to build it, I get this error:&lt;/p&gt;&#xA;&#xA;&lt;blockquote&gt;&#xA;  &lt;p
+&gt;Cannot implicitly convert type 'decimal' to 'double'.&lt;/p&gt;&#xA;&lt;/blo
+ckquote&gt;&#xA;&#xA;&lt;p&gt;I tried making &lt;strong&gt;trans&lt;/strong&gt; 
+to &lt;strong&gt;double&lt;/strong&gt;, but then the control doesn't work. This 
+code has worked fine for me in VB.NET in the past. &lt;/p&gt;&#xA;"
+		OwnerUserId="8" LastEditorUserId="2648239" LastEditorDisplayName="Rich B"
+		LastEditDate="2014
+-01-03T02:42:54.963" LastActivityDate="2014-01-03T02:42:54.963"
+		Title="When sett
+ing a form's opacity should I use a decimal or double?"
+		Tags="&lt;c#&gt;&lt;winf
+orms&gt;&lt;forms&gt;&lt;type-conversion&gt;&lt;opacity&gt;"
+		AnswerCount="13" CommentCount="25" FavoriteCount="23"
+		CommunityOwnedDate="2012-10-31T16:42:47.213" />
+	<row Id="6" PostTypeId="1" AcceptedAnswerId="31"
+		CreationDate="2008-07-31T22:0
+8:08.620" Score="121" ViewCount="8524"
+		Body="&lt;p&gt;I have an absolutely posit
+ioned &lt;code&gt;div&lt;/code&gt; containing several children, one of which is 
+a relatively positioned &lt;code&gt;div&lt;/code&gt;. When I use a percentage-ba
+sed width on the child &lt;code&gt;div&lt;/code&gt;, it collapses to &lt;code&gt
+;0&lt;/code&gt; width on IE7, but not on Firefox or Safari. &lt;/p&gt;&#xA;&#xA;
+&lt;p&gt;If I use pixel width, it works. If the parent is relatively positioned,
+ the percentage width on the child works. &lt;/p&gt;&#xA;&#xA;&lt;p&gt;Is there something I'm missing here? &#xA;Is there an easy fix for this besides the pixel-based width on the child? &#xA;Is there an area of the CSS specification that covers this?&lt;/p&gt;&#xA;"
+		OwnerUserId="9" LastEditorUserId="243557" LastEditorDisplayName="Rich B"
+		LastEditDate="2013-10-04T01:14:10.373" LastActivityDate="2013-11-20T04:16:38.813"
+		Title="Why doesn't the percentage width child in absolutely positioned parent work"
+		Tags="&lt;html&gt;&lt;css&gt;&lt;css3&gt;&lt;internet-explorer-7&gt;"
+		AnswerCount="5" CommentCount="12" FavoriteCount="7" />
+	<row Id="7" PostTypeId="2" ParentId="4" CreationDate="2008-07-31T22:17:57.883"
+		Score="193"
+		Body="&lt;p&gt;An explicit cast to double isn't necessary.&lt;/p&gt;&#xA;&#xA;&lt;pre&gt;&lt;code&gt;double trans = (double)trackBar1.Value / 5000.0;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&#xA;&lt;p&gt;Identifying the constant as &lt;code&gt;5000.0&lt;/code&gt; (or as &lt;code&gt;5000d&lt;/code&gt;) is sufficient:&lt;/p&gt;&#xA;&#xA;&lt;pre&gt;&lt;code&gt;double trans = trackBar1.Value / 5000.0;&#xA;double trans = trackBar1.Value / 5000d;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;"
+		OwnerUserId="9" LastEditorUserId="967315" LastEditDate="2012-10-14T11:50:16.703"
+		LastActivityDate="2012-10-14T11:50:16.703" CommentCount="0" />
+
+
+</posts>
